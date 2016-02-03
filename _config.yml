@@ -10,3 +10,5 @@ github_username:  frozen007
 
 # Build settings
 markdown: kramdown
+
+encoding: UTF-8
