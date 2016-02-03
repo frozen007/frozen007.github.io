@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "搬家到新博客!"
-date:   2016-02-03 23:27:01
-categories: tech
+date:   2016-02-03 23:27:01 +0800
+categories: git
 ---
 
 今天开始我将把博客搬家到这里，哈哈。 
