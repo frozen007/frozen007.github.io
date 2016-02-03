@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+专注Coding十多年，阅码无数，主营Java后台技术，对一切开源的东西都感兴趣。
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+[冰冻之哀伤]是我年轻时魔兽的第一个魔兽账号，血精灵法师。如今已经N年不上线...
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+
+[冰冻之哀伤]: http://www.battlenet.com.cn/wow/zh/character/%E5%A5%8E%E5%B0%94%E8%90%A8%E6%8B%89%E6%96%AF/%E5%86%B0%E5%86%BB%E4%B9%8B%E5%93%80%E4%BC%A4/
+
