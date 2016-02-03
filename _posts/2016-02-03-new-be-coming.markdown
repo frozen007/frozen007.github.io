@@ -1,6 +1,6 @@
 ---    
 layout: post
-title:  "I'm comming!"
+title:  "搬家到新博客!"
 date:   2016-02-03 15:45:01
 categories: git
 ---
