@@ -1,13 +1,11 @@
 # Site settings
-title: 霜之哀伤
+title: 冰冻之哀伤
 email: zmy1019@163.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  冰冻之哀伤的技术、生活和随感博客
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://frozen007.github.io" # the base hostname & protocol for your site
-twitter_username: ""
+twitter_username: 
 github_username:  frozen007
 
 # Build settings
