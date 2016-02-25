@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "搬家到新博客!"
+title:  "实战Git之git log"
 date:   2016-02-03 23:27:01 +0800
 categories: tech
 tags:
@@ -11,7 +11,7 @@ tags:
 
 先写些工作中常用的git命令吧，正好我也经常记不住...
 
-今天闲来git log专题。[官方文档]
+今天先来git log专题。[官方文档]
 
 # git log
 
