@@ -12,6 +12,7 @@ tags:
 # git log
 
 我经常用reset完成的事情：
+
 - git reset src/main/java/Test.java
 
     将Test.java从待提交的缓冲区，还原到未提交状态
