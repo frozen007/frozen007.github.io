@@ -6,6 +6,7 @@ categories: life DIY
 tags:
 - wow
 ---
+
 # 背景
 
 现在iphone已经烂大街了，铃声就那么几个，地铁上电话一响一帮人看手机。。。
