@@ -10,7 +10,7 @@ permalink: /about/
 
 * 陪伴了我十多年的老伙计：天天
 
-![这是我的宠物](http://frozen007-store.b0.upaiyun.com/image/tt.jpeg)
+![这是我的宠物]({{ site.url }}/assets/images/tt.jpeg)
 
 * [frozen007@fanfou]
 
