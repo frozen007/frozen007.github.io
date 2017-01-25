@@ -6,10 +6,13 @@ categories: life DIY
 tags:
 - wow
 ---
+# 背景
 
 现在iphone已经烂大街了，铃声就那么几个，地铁上电话一响一帮人看手机。。。
 
 因此我一直希望能设置一个不一样的铃声，比如魔兽世界里的各种音效。
+
+![diy-wow-ringtong-logo]({{ site.url }}/assets/images/201701/diy-wow-ringtong-logo.jpg)
 
 此文介绍下面几个内容：
 
