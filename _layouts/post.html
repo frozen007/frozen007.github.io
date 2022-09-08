@@ -1,19 +1,47 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  <body>
+    {% include header.html %}
 
-    {% include post-tags.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
 
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+          <header class="post-header">
 
-  </header>
+            {% if page.draft %}
+              {% include draft-banner.html %}
+            {% endif %}
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+            <h1 class="post-title">
+            {% if page.headline_formatted_title %}
+              {{ page.headline_formatted_title | newline_to_br }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+            </h1>
 
-</article>
+            {% if page.subtitle %}<h1 class="post-subtitle">{{ page.subtitle }}</h1>{% endif %}
+            <p class="post-meta"><span class="post-date">{{ page.date | date: "%B %-d, %Y" }}
+            </span>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          </header>
+
+          <article class="post-content">
+            {{ content }}
+          </article>
+
+          {% if page.draft %}
+              {% include draft-banner.html %}
+          {% endif %}
+
+      </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+</html>

@@ -1,21 +1,57 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: 冰冻之哀伤
-email: zmy1019@163.com
-description: > # this means to ignore newlines until "baseurl:"
-  冰冻之哀伤的技术、生活和随感博客
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://frozen007.github.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  frozen007
+title: frozen007 blog
+description: >- # this means to ignore newlines until "baseurl:"
+  Bay is a minimal Jekyll Theme.
+baseurl: "/frozen007" # the subpath of the site
+url: "https://frozen007.github.io/" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+# google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: About
+      slug: /work
+    - name: Blog
+      slug: /blog
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: zmy1019@163.com
+      link: mailto:zmy1019@163.com
+    - name: WeChat
+      value: twister1017
+      link: "#"
+  follow:
+    - name: GitHub
+      link: http://github.com/frozen007
+    - name: RSS
+      link: /feed.xml
 
 # Build settings
 markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
 
-encoding: UTF-8
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1

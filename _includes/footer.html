@@ -1,38 +1,65 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}&nbsp;<img src="{{ site.url }}/assets/images/logo32.png"/></h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <h4>CONTACT</h4>
+
+        <div class="social-links">
+          {% for contact in site.footer.contact %}
+            <div class="social-link contact-links">
+
+              {% assign contact_icon_path = "/assets/img/icons/" | append: contact.name | downcase | append: ".png" | absolute_url %}
+              <img
+                src="{{ contact_icon_path }}"
+                alt="{{ contact.name | downcase }}"
+              />
+              <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
+                {% if contact.value and contact.value != "" and contact.value != nil %}
+                  {{ contact.value }}
+                {% else %}
+                  {{ contact.name }}
+                {% endif %}
+              </a>
+            </div>
+
+          {% endfor %}
+        </div>
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+        <h4>FOLLOW</h4>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+        <div class="social-links follow-links">
+          {% for follow in site.footer.follow %}
+            <div class="social-link">
+
+              {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
+              <img
+                src="{{ follow_icon_path }}"
+                alt="{{ follow.name | downcase }}"
+              />
+              <a href="{{ follow.link }}">
+                {% if follow.value and follow.value != "" and follow.value != nil %}
+                  {{ follow.value }}
+                {% else %}
+                  {{ follow.name }}
+                {% endif %}
+              </a>
+            </div>
+
+          {% endfor %}
+        </div>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+      {% if site.footer.show_powered_by == true %}
+        <div class="footer-col footer-col-3 powered-by">
+          <p>
+            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
+          </p>
+        </div>
+      {% endif %}
     </div>
-
   </div>
-
 </footer>
+
+{% include wechat-widget.html %}
