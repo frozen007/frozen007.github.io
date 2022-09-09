@@ -11,4 +11,6 @@ categories: diy
 
 后面准备在此基础上进行一些个性化的改造
 
+PS: 找到了一些自己刚工作时写的一些博客，也统一放到了这个项目，现在看看也挺有意思的
+
 [bay]: https://github.com/eliottvincent/bay
