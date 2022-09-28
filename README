@@ -1,2 +1,6 @@
 # 博客框架
 使用的是jekyll：http://jekyllrb.com/
+
+- local test
+
+    bundle exec jekyll serve
