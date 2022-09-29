@@ -35,6 +35,11 @@ footer:
 
 # Build settings
 markdown: kramdown
+
+# config to use other syntax highlighter
+kramdown:
+  syntax_highlighter: +nil+
+
 sass:
     style: :compressed
 plugins:
