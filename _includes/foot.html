@@ -5,5 +5,12 @@
   {% include mermaid.html %}
 {% endif %}
 
+{% if page.syntax_lang %}
 <link rel="stylesheet" href="/assets/css/prism.css" />
-<script src="/assets/js/prism.js" data-manual></script>
+<script src="/assets/js/prism.js"></script>
+<script>
+  Prism.plugins.filterHighlightAll.add(function (env) {
+    return env.language !== 'mermaid';
+  });
+</script>
+{% endif %}
