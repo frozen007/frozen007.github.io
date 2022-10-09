@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "博客迁移到新版本jekyll"
-date:   2022-09-07 20:00:01 +0800
+date:   2022-08-07 20:00:01 +0800
 blurb:  "博客迁移到新版本jekyll"
 og_image:
-categories: diy
+categories: tech
 ---
 
 今天把之前的博客项目迁移到最新的jekyll版本，并且引入了第三方的theme:[bay]

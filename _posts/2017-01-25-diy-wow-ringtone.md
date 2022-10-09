@@ -4,7 +4,7 @@ title:  "DIY魔兽世界iphone铃声"
 date:   2017-01-25 11:34:01 +0800
 blurb:  "将魔兽世界里经典的声音变为手机铃声"
 og_image:
-categories: diy
+categories: tech
 tags:
 - wow
 ---

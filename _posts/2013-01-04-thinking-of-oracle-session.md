@@ -4,7 +4,7 @@ title:  "由Oracle的V$SESSION中的MACHINE字段想到的"
 date:   2013-01-04 17:43:56 +0800
 blurb:  "今天部门的一位同事发现oracle的连接数被占用了很多，于是想通过V$SESSION视图找出占用最多连接的用户"
 og_image:
-categories: 
+categories: tech
 ---
 
 今天部门的一位同事发现oracle的连接数被占用了很多，于是想通过V$SESSION视图找出占用最多连接的用户，于是写了下面的sql：

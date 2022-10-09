@@ -4,7 +4,7 @@ title:  "回忆刚毕业的岁月-WEB开发时代"
 date:   2012-03-16 15:03:07 +0800
 blurb:  "记得刚毕业的时候接触到了JavaEE，那时候struts比较流行，当时版本还是struts1.2"
 og_image:
-categories: 
+categories: tech
 ---
 
 那是一个还没有微薄，sun还没有被oracle收购，www.google.com后面还没有.hk，最牛X的手机还是Nokia的一个传奇的时代。

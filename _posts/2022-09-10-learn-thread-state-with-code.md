@@ -6,7 +6,7 @@ blurb:  "通过实际代码理解Java线程的状态"
 og_image:
 mermaid: true
 syntax_lang: true
-categories: diy
+categories: tech
 ---
 
 ### **线程状态介绍**
