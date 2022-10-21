@@ -5,6 +5,8 @@ date:   2014-06-03 16:55:09 +0800
 blurb:  "前段时间发现我负责的版本发布系统出现了一次OutOfMemoryError，很奇怪这个系统日常访问量不大"
 og_image:
 categories: tech
+tags:
+  - java
 ---
 
 前段时间发现我负责的版本发布系统出现了一次OutOfMemoryError，很奇怪这个系统日常访问量不大，而且最大heap设置为1G以上，当时没有重视，只是简单重启了应用，一切又正常了。

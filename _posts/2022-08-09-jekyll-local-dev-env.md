@@ -6,6 +6,8 @@ blurb:  "jekyll本地调试技巧"
 og_image:
 syntax_lang: true
 categories: tech
+tags: 
+  - jekyll
 ---
 
 ### Jekyll本地调试问题

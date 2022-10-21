@@ -6,7 +6,7 @@ blurb:  "实现kafka批量提交的一种思路"
 og_image:
 categories: tech
 tags:
-- kafka
+  - java
 ---
 
 转自我之前写的一篇文章，虽然现在已经用不到kafka了。。。

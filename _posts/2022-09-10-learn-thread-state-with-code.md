@@ -7,6 +7,8 @@ og_image:
 mermaid: true
 syntax_lang: true
 categories: tech
+tags: 
+  - java
 ---
 
 ### **线程状态介绍**

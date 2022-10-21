@@ -5,6 +5,8 @@ date:   2022-08-07 20:00:01 +0800
 blurb:  "博客迁移到新版本jekyll"
 og_image:
 categories: tech
+tags: 
+  - jekyll
 ---
 
 今天把之前的博客项目迁移到最新的jekyll版本，并且引入了第三方的theme:[bay]
